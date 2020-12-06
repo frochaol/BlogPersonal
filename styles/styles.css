@@ -1,0 +1,92 @@
+/* Orden de estilos
+1. Posicionamiento
+2. Modelo de caja
+3. Tipografía
+4. Visuales
+5. Otros
+*/
+
+:root { 
+    --primary-color: #003C4C;
+    --secondary-color: #00BCD4;
+    --just-white: #FFFFFF;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Valores Header -> Nav -> ... */
+header {
+    background-color: var(--primary-color);
+    border-bottom: 1px solid var(--just-white);
+    box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    height: 65px;
+    width: 100%;    
+}
+
+.menu_logo {
+    color: var(--secondary-color);
+    font-size: 2.5rem;
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+.menu_items {
+    position: fixed;
+    width: 100%;
+    height: calc(100% - 65px);
+    background: var(--secondary-color);
+    top: -100vh;
+    text-align: center;
+    transition: all .4s;
+    flex-direction: column;
+    list-style: none;
+}
+
+.menu_items li {
+    padding: 10px 0px 10px 0px;
+    line-height: 3rem;
+}
+
+.menu_items li a {
+    font-size: 2rem;
+    color: var(--just-white);
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu_items li:hover {
+    background: none;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.menu_btn {
+    display: inline-flex;
+    margin-right: 30px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-image: url('../assets/icons/menu.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+ul.menu_show {
+    top: 65px;
+}
