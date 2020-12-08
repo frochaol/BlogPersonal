@@ -34,7 +34,7 @@ a la etiqueta 'a' */
     background: none;
 }
 
-.menu_items a:hover /*, a.active*/ {
+.menu_items a:hover , a.active {
     background-color: rgba(0, 188, 212, .3);
 }
 
