@@ -43,9 +43,9 @@ a la etiqueta 'a' */
 
 /* Footer */ 
 
-footer {
+.footer_container {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 75px;   /* Altura definida en estilo mobil de 75 */
+    height: 90px;
 }
