@@ -10,6 +10,7 @@
     --primary-color: #003C4C;
     --secondary-color: #00BCD4;
     --just-white: #FFFFFF;
+    --off-white: #FAF8F7;
 }
 
 *, *::before, *::after {
@@ -24,11 +25,14 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Valores Header -> Nav -> ... */
+body {
+    background-color: var(--off-white);
+}
+
+/* Estilos barra de navegación */
 header {
     background-color: var(--primary-color);
     border-bottom: 1px solid var(--just-white);
-    box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
 }
 
 .menu {
@@ -89,4 +93,90 @@ header {
 
 ul.menu_show {
     top: 66px;
+}
+
+/* Estilos Main */
+
+main {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    min-width: 320px;
+    /* 186 pixeles es la suma del nav + footer */
+    min-height: calc(100vh - 141px);
+    background: var(--just-white);
+}
+
+/* Estilos Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
+}
+
+footer section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--just-white);    
+}
+
+footer .middle ul {
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    list-style: none;
+}
+
+.middle li {
+    display: flex;
+    align-items: center;
+    
+    text-decoration: none;
+    color: var(--just-white);
+}
+
+.middle a {
+    text-decoration: none;
+    color: var(--just-white);
+    font-size: 1.2rem;
+}
+
+.middle span {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+    margin-bottom: 2px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.git {
+    background-image: url('../assets/icons/github.png');
+}
+
+.twitter {
+    background-image: url('../assets/icons/twitter.svg');
+}
+
+.facebook {
+    background-image: url('../assets/icons/facebook.svg');
 }

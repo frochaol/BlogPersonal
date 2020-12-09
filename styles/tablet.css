@@ -11,7 +11,6 @@
     background: none;    
     justify-content: center;
     align-items: center;
-    /* margin-right: 10px; */
 }
 
 .menu_items li {
@@ -40,4 +39,13 @@ a la etiqueta 'a' */
 
 .menu_btn {
     display: none;
+}
+
+/* Footer */ 
+
+footer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 75px;   /* Altura definida en estilo mobil de 75 */
 }

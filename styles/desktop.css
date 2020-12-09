@@ -10,3 +10,8 @@
 .menu_items li a {
     font-size: 1.6rem;
 }
+
+/* Footer */
+.footer_container {
+    max-width: 1200px;
+}
