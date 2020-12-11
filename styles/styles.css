@@ -98,13 +98,14 @@ ul.menu_show {
 /* Estilos Main */
 
 main {
-    margin: 0 auto;
+    margin: 20px auto;
     width: 100%;
     max-width: 1200px;
     min-width: 320px;
     /* 186 pixeles es la suma del nav + footer */
-    min-height: calc(100vh - 141px);
+    min-height: calc(100vh - 181px);
     background: var(--just-white);
+    border-radius: 5px;
 }
 
 /* Estilos Footer */
