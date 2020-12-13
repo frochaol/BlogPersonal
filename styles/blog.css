@@ -56,6 +56,11 @@ main {
     text-align: center;
 }
 
+.main_container a:hover {
+    background-color: var(--secondary-color);
+    transition: .5s;
+}
+
 .main_container-button {
     display: block;
     margin: 20px auto;
