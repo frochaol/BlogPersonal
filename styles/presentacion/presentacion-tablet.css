@@ -1,0 +1,8 @@
+.main_container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.main_container-article p{
+    font-size: 1.4rem;
+}

@@ -1,0 +1,82 @@
+.main_container {
+    padding-bottom: 20px;
+}
+
+.container-header-img {
+    height: 200px;
+    margin-bottom: 20px;
+    background-image: url('../../assets/images/presentacion/header1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main_container-title {
+    width: 80%;
+    margin: 0 auto;
+    color: var(--just-black);
+
+}
+
+.main_container-title p {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.main_container-title h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+
+.main_container-article {
+    width: 80%;
+    margin: 0 auto;
+    color: var(--just-black);
+}
+.main_container-article p {
+    font-size: 1.5rem;
+    margin-bottom: 60px;
+}
+
+.main_container-call {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 150px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: var(--primary-color);
+    color: var(--just-white);
+}
+
+.main_container-call a {    
+    display: block;    
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+    margin: 20px 0px; 
+    color: var(--just-black);
+    text-align: center;
+    background-color: var(--just-white);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.main_container-call a:hover {
+    background-color: var(--secondary-color);
+    transition: .8s;
+    
+}
+
+.main_container-call p {
+    font-size: 1.4rem;
+    padding: 0px 30px;
+    padding-top: 20px;
+}
+
+
