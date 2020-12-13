@@ -1,0 +1,9 @@
+.main_container-header {
+    width: 80%;
+    margin: auto;
+}
+
+.main_container-img {
+    height: 400px;
+    background-image: url('../assets/images/post1-desktop.jpg');
+}
