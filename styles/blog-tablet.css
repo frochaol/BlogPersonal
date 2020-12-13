@@ -1,9 +1,0 @@
-main {
-    display: flex;
-    flex-direction: row;
-}
-
-.main_container {
-    margin: 20px 20px;
-    max-height: 500px;
-}
