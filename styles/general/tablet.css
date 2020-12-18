@@ -9,7 +9,7 @@
     flex-direction: row;
     height: 65px;
     background: none;    
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
