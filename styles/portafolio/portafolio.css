@@ -1,0 +1,31 @@
+.main_section {
+	padding: 15px;
+}
+
+.main_section--container {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.main_section--container h2 {
+	margin-bottom: 10px;
+}
+
+.main_section--container a {
+	font-size: 1.4rem;
+	text-decoration: none;
+	color: var(--just-black);
+}
+
+.main_section--container p {
+	font-size: 1.4rem;
+}
+
+.container-img {
+	height: 200px;
+	margin-top: 10px;
+    background-image: url('../../assets/images/presentacion/header1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
